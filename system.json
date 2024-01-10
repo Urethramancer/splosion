@@ -1,0 +1,21 @@
+{
+	"name": "splosion",
+	"title": "Splosion",
+	"description": "An experimental RPG system with exploding dice.",
+	"author": "Ronny Bangsund",
+	"version": "0.1.0",
+	"minimumCoreVersion": "0.11.0",
+	"compatibleCoreVersion": "0.11.0",
+	"esmodules": [
+		"splosion.js"
+	],
+	"styles": [
+		"splosion.css"
+	].
+	"packs": [],
+	"gridDistance": "1",
+	"gridUnits": "m",
+	"primaryTokenAttribute": "wounds",
+	"secondaryTokenAttribute": "stamina",
+	"initiative": "1d10 + @agility"
+}
